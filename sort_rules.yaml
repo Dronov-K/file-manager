@@ -1,0 +1,67 @@
+Images:
+  - .jpg
+  - .jpeg
+  - .png
+  - .gif
+  - .webp
+  - .bmp
+  - .svg
+  - .tiff
+
+Documents:
+  - .pdf
+  - .docx
+  - .xlsx
+  - .pptx
+  - .txt
+  - .rtf
+  - .odt
+  - .csv
+
+Archives:
+  - .zip
+  - .rar
+  - .7z
+  - .tar
+  - .gz
+  - .bz2
+
+Media:
+  - .mp3
+  - .mp4
+  - .avi
+  - .mkv
+  - .mov
+  - .wav
+  - .flac
+
+Code:
+  - .py
+  - .js
+  - .html
+  - .css
+  - .json
+  - .xml
+  - .php
+  - .sh
+
+Executables:
+  - .exe
+  - .msi
+  - .dmg
+  - .pkg
+  - .deb
+
+Design:
+  - .psd
+  - .ai
+  - .sketch
+  - .fig
+
+Data:
+  - .sql
+  - .db
+  - .sqlite
+  - .mdb
+
+Other: []
