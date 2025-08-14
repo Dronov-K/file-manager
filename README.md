@@ -7,6 +7,7 @@ Easily installable as a package or used as a CLI tool.
 
 # Project structure
 
+```
 file-manager/
 │
 ├── src/
@@ -26,3 +27,4 @@ file-manager/
 ├── .pre-commit-config.yaml  #
 ├── pyproject.toml           #
 └── Dockerfile               # Docker Image
+```
