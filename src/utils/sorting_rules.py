@@ -1,5 +1,4 @@
 import logging
-import pprint
 
 import yaml
 
@@ -28,7 +27,3 @@ def load_sorting_rules() -> dict:
         config["mime"] = [m.lower() for m in config.get("mime", [])]
 
     return rules
-
-
-if __name__ == "__main__":
-    pprint.pprint(load_sorting_rules())

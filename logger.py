@@ -3,7 +3,7 @@ import logging
 
 def configure_logging(level: int = logging.INFO) -> None:
     """
-    Configure logging with colored console output and optional file logging.
+    Configure the global logging settings.
 
     :param level: Logging level (e.g., logging.INFO, logging.DEBUG).
 

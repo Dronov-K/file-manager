@@ -13,7 +13,7 @@ logger = logging.getLogger(__name__)
 
 def sort_files() -> None:
     """
-    Main function to sort files according to rules.
+    Sort files according to rules.
     """
     target_folder = settings.target_folder
     rules = load_sorting_rules()
@@ -48,7 +48,3 @@ def sort_files() -> None:
                 logger.info(f"{item.name} -> {destination_folder}")
             except Exception as e:
                 logger.error(f"Error moving {item.name}: {e}")
-
-
-if __name__ == "__main__":
-    sort_files()
