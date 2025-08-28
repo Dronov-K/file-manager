@@ -4,6 +4,9 @@ venv/
 # PyCharm settings
 .idea/
 
+# VSCode settings
+.vscode/
+
 # Secrets
 .env
 
@@ -15,9 +18,29 @@ __pycache__/
 # Log and temporary files
 *.log
 *.tmp
+*.swp
+*~
 
-# Jupyter notebook checkpoints (if you use Jupyter)
+# Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# pytest cache
+.pytest_cache/
+
+# ruff cache
+.ruff_cache/
+
+# Mypy cache
+.mypy_cache/
+.dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
 
 # System files
 .DS_Store

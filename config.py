@@ -74,3 +74,4 @@ if __name__ == "__main__":
     print(settings.log_file)
     print(settings.date_format)
     print(settings.sort_rules_file)
+    print(settings.backup_files)

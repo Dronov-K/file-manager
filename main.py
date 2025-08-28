@@ -1,5 +1,8 @@
+from src.sorter import sort_files
+
+
 def main():
-    pass
+    sort_files()
 
 
 if __name__ == "__main__":
